@@ -22,9 +22,9 @@ The Cheatsheet Module is a versatile Python library designed to provide quick re
 - **Automated Testing**: Execute tests based on specified configurations to ensure code reliability.
 
 ## Installation
-To install the Cheatsheet Module, you can clone the repository or install it via pip if it’s available on PyPI (Python Package Index).
+To install the Cheatsheet Module, you can clone the repository or install it via pip (Will Commit On PyPi later)
 
 ### Cloning the Repository
 ```bash
-git clone https://github.com/your-username/cheatsheet-module.git
+git clone https://github.com/ByteNight18/cheatsheet.git
 cd cheatsheet-module
