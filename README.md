@@ -23,7 +23,7 @@ Ensure you have the required library installed:
 ```bash
 pip install tzlocal
 ```
-###Usage
+### Usage
 The Cheatsheet Module contains several classes that provide different functionalities.
 
 ```python
@@ -71,14 +71,14 @@ Documentation
 For detailed usage instructions and further examples, please refer to the Documentation page.
 ```
 
-##Contributing
+### Contributing
 Contributions are welcome! If you have suggestions for improvements or features, feel free to create a pull request or open an issue.
 
-##Issues
+### Issues
 If you encounter any bugs or issues, please report them on the Issues page of this repository.
 
-##License
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-###Support
+### Support
 If you find this module helpful, consider starring the repository or sharing it with others!
