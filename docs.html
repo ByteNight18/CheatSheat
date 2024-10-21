@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet Module Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1f1f1f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .section {
+            background-color: #1e1e1e;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+            font-size: 28px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        h3 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        pre {
+            background-color: #2a2a2a;
+            border: 1px solid #444;
+            border-radius: 5px;
+            padding: 10px;
+            overflow-x: auto;
+            color: #ffffff;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cheatsheet Module Documentation</h1>
+</header>
+
+<div class="container">
+    <div class="section">
+        <h2>Module Overview</h2>
+        <p>The Cheatsheet module provides quick references for mathematical operations, JSON handling, time management, and automated testing in Python.</p>
+    </div>
+
+    <div class="section">
+        <h2>Math Class (`mc`)</h2>
+        <h3>Methods:</h3>
+        <ul>
+            <li><strong>norp(num)</strong>: Returns 'P' for positive, 'N' for negative, None for zero.</li>
+            <li><strong>arraycal(num, lst)</strong>: Adds a number to each element in a list.</li>
+            <li><strong>add(a, b)</strong>: Returns the sum of two numbers.</li>
+            <li><strong>sub(a, b)</strong>: Returns the difference between two numbers.</li>
+            <li><strong>mul(a, b)</strong>: Returns the product of two numbers.</li>
+            <li><strong>div(a, b)</strong>: Returns the division of two numbers.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Time Class (`tc`)</h2>
+        <h3>Methods:</h3>
+        <ul>
+            <li><strong>time()</strong>: Returns the current time.</li>
+            <li><strong>date()</strong>: Returns the current date.</li>
+            <li><strong>tz()</strong>: Returns information about the local time zone.</li>
+            <li><strong>timer(count)</strong>: Pauses execution for a specified number of seconds.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>JSON Class (`jc`)</h2>
+        <h3>Methods:</h3>
+        <ul>
+            <li><strong>extract(file)</strong>: Loads and returns the contents of a JSON file.</li>
+            <li><strong>take(file, key)</strong>: Extracts a value from a JSON file by key.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Auto Testing Class (`auto_test`)</h2>
+        <h3>Method:</h3>
+        <ul>
+            <li><strong>run(data, config)</strong>: Executes code from a file and checks if its output matches expected results from a config file.</li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Cheatsheet Module Documentation. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
