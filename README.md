@@ -1,17 +1,30 @@
 # Cheatsheet Module
 
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Classes](#classes)
+  - [Example Code](#example-code)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
 ## Overview
-The Cheatsheet Module is a comprehensive Python library designed to provide quick and easy references for common programming tasks. This module includes functionalities for mathematical calculations, JSON data handling, time management, and automated testing, making it a reliable companion for developers.
+The Cheatsheet Module is a versatile Python library designed to provide quick references for common programming tasks. It includes functions for mathematical operations, JSON data handling, time management, and automated testing. This module is aimed at making programming more efficient and user-friendly.
 
 ## Features
-- **Mathematical Functions**: Perform quick calculations including addition, subtraction, multiplication, and division.
-- **JSON Handling**: Easily extract and manipulate JSON data from files.
-- **Time Management**: Get the current time, date, and timezone information, along with timer functionality.
-- **Automated Testing**: Run automated tests based on provided configuration files.
+- **Mathematical Operations**: Functions for addition, subtraction, multiplication, and division.
+- **JSON Handling**: Easy extraction and manipulation of JSON data.
+- **Time Management**: Functions to get the current time, date, and timezone information.
+- **Automated Testing**: Execute tests based on specified configurations to ensure code reliability.
 
 ## Installation
-To use the Cheatsheet Module, clone the repository to your local machine:
+To install the Cheatsheet Module, you can clone the repository or install it via pip if it’s available on PyPI (Python Package Index).
 
+### Cloning the Repository
 ```bash
 git clone https://github.com/your-username/cheatsheet-module.git
 cd cheatsheet-module
